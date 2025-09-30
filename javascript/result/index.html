@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Total Marks<p id="tm"></p></h1>
+    <h1>Percentage<p id="per"></p></h1>
+    <h1>Grade<p id="grade"></p></h1>
+    <script>
+        var eng =  Number(prompt('enter mark of eng'))
+        var urdu =  Number(prompt('enter mark of urdu'))
+        var math =  Number(prompt('enter mark of math'))
+        var comp =  Number(prompt('enter mark of comp'))
+        var obtainmarks = obtainmark(eng,urdu,math,comp);
+        var percentage = percentages(obtainmarks)
+        var grade;
+        function obtainmark(a,b,c,d){
+            return a+b+c+d
+        }
+
+        function percentages(t){
+            return obtainmarks * 100 / 400;
+        }
+         
+        if (percentage>=90){
+            grade = "A+"
+        }
+        else if (percentage>=80){
+            grade = "A"
+        }
+        else if (percentage>=70){
+            grade = "B+"
+        }
+        else if (percentage>=60){
+            grade = "B"
+        }
+        else{
+            grade = "C"
+        }
+        
+        document.getElementById('tm').innerHTML = obtainmarks;
+        document.getElementById('per').innerHTML = percentage;
+        document.getElementById('grade').innerHTML = grade;
+
+
+
+        // function ADD(mark1, mark2, mark3, mark4){
+        //     return mark1 + mark2 + mark3 + mark4;
+        // }
+        // var result;
+        // if (func == 'ADD')
+        // result = add(mark1, mark2, mark3, mark4)
+        // document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>

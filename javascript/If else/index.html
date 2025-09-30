@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <h1>
+        <p id="result"></p>
+        <p id="players"></p> In the team</h1>
+    <script>
+        var players = ['shahnawaz', 'bhutto', 'mairaj', 'khalid', 'abbas', 'mujeeb', 'tufail', 'ali', 'zaman', 'saheen', 'imran-khan']
+        var user_info = prompt("");
+        var result;
+
+        if (players.includes(user_info)){
+            result = 'yes'
+        }
+        else{
+            result = 'no'
+        }
+        document.getElementById('result').innerHTML = result;
+        document.getElementById('players').innerHTML = user_info;
+
+    </script>
+</body>
+
+</html>

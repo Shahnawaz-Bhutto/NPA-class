@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+
+<body>
+    <h1>
+        Calculator
+        <p id="result"></p>
+    </h1>
+    <script>
+        var num1 = Number(prompt("Enter First Number"));
+        var num2 = Number(prompt("Enter Second Number"));
+        var func = prompt("What to Do : ADD SUB PROD DIVIDE EXPO");
+        function Add(a, b) {
+            return a + b;
+        }
+        function Sub(a, b) {
+            return a - b;
+        }
+        function Product(a, b) {
+            return a * b;
+        }
+        function Division(a, b) {
+            return a / b;
+        }
+        function Expo(a, b) {
+            return a ** b;
+        }
+        var result;
+        if (func == 'ADD') {
+            result = Add(num1, num2)
+        } else if (func == 'SUB') {
+            result = Sub(num1, num2)
+        } else if (func == 'PROD') {
+            result = Product(num1, num2)
+        } else if (func == 'DIVIDE') {
+            result = Division(num1, num2)
+        } else if (func == 'EXPO') {
+            result = Expo(num1, num2)
+        }
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+
+</html>
