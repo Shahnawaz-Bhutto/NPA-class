@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    width: 100%;
+    height: 3000px;
+    background-color: whitesmoke;
+}
+.upper-box{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    background-image: url(../index/assests/images/min_11.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.lower-box{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box2{
+    width: 90%;
+    height: 100%;
+    /* background-color: crimson; */
+}
+.box3{
+    width: 100%;
+    height: 5%;
+    /* background-color: green; */
+}
+h2{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.box{
+    width: 40%;
+    height: 30%;
+    /* background-color: blueviolet; */
+    display: flex;
+   margin-right: 80px;
+   margin-bottom: 60px;
+   flex-wrap: wrap;
+}
+h1{
+    font-size: 50px;
+    display: flex;
+    margin-left: 50px;
+}
+.box2{
+    width: 100%;
+    height: 70%;
+    /* background-color: aliceblue; */
+}
+h3{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+button{
+    width: 30%;
+    height: 30%;
+    margin-left: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.button2{
+    width: 30%;
+    height: 30%;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.box4{
+    width: 100%;
+    height: 15%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-between;
+}
+.image1{
+    width: 20%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.image2{
+    width: 20%;
+    height: 100%;
+    /* background-color: gold; */
+}
+.image3{
+    width: 20%;
+    height: 100%;
+    /* background-color: gray; */
+}
+.image4{
+    width: 20%;
+    height: 100%;
+    /* background-color: salmon; */
+}
+.img-box1{
+    width: 100%;
+    height: 85%;
+    /* background-color: cadetblue; */
+}
+.h-box1{
+    width: 100%;
+    height: 15%;
+    /* background-color: chocolate; */
+}
+.img-box2{
+    width: 100%;
+    height: 85%;
+    /* background-color: cadetblue; */
+}
+.h-box2{
+    width: 100%;
+    height: 15%;
+    /* background-color: chocolate; */
+}
+.img-box3{
+    width: 100%;
+    height: 85%;
+    /* background-color: cadetblue; */
+}
+.h-box3{
+    width: 100%;
+    height: 15%;
+    /* background-color: chocolate; */
+}
+.img-box4{
+    width: 100%;
+    height: 85%;
+    /* background-color: cadetblue; */
+}
+.h-box4{
+    width: 100%;
+    height: 15%;
+    /* background-color: chocolate; */
+}
+.box5{
+    width: 100%;
+    height: 5%;
+    /* background-color: yellow; */
+}
+.box6{
+    width: 100%;
+    height: 15%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+}
+.image5{
+    width: 20%;
+    height: 100%;
+    /* background-color: gray; */
+}
+.image6{
+    width: 20%;
+    height: 100%;
+    /* background-color: darkblue; */
+}
+.image7{
+    width: 20%;
+    height: 100%;
+    /* background-color: violet; */
+}
+.image8{
+    width: 20%;
+    height: 100%;
+    /* background-color: palevioletred; */
+}
+.img-box5{
+    width: 100%;
+    height: 85%;
+    /* background-color: cadetblue; */
+}
+.h-box5{
+    width: 100%;
+    height: 15%;
+    /* background-color: chocolate; */
+}
+.img-box6{
+    width: 100%;
+    height: 85%;
+    /* background-color: cadetblue; */
+}
+.h-box6{
+    width: 100%;
+    height: 15%;
+    /* background-color: chocolate; */
+}
+.img-box7{
+    width: 100%;
+    height: 85%;
+    /* background-color: cadetblue; */
+}
+.h-box7{
+    width: 100%;
+    height: 15%;
+    /* background-color: chocolate; */
+}
+.img-box8{
+    width: 100%;
+    height: 85%;
+    /* background-color: cadetblue; */
+}
+.h-box8{
+    width: 100%;
+    height: 15%;
+    /* background-color: chocolate; */
+}
+.box7{
+    width: 100%;
+    height: 5%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 15%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.img{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.box8{
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.image9{
+    width: 25%;
+    height: 50%;
+    /* background-color: blue; */
+}
+.image10{
+    width: 25%;
+    height: 50%;
+    /* background-color: gold; */
+}
+.image11{
+    width: 25%;
+    height: 50%;
+    /* background-color: green; */
+}
+.image12{
+    width: 25%;
+    height: 50%;
+    /* background-color: hotpink; */
+}
+.image13{
+    width: 25%;
+    height: 50%;
+    /* background-color: orange; */
+}
+.image14{
+    width: 25%;
+    height: 50%;
+    /* background-color: orangered; */
+}
+.image15{
+    width: 25%;
+    height: 50%;
+    /* background-color: lightcoral; */
+}
+.image16{
+    width: 25%;
+    height: 50%;
+    /* background-color: red; */
+}
+.space{
+    width: 100%;
+    height: 2%;
+    /* background-color: yellowgreen; */
+}
+.footer{
+    width: 100%;
+    height: 15%;
+    /* background-color: cadetblue; */
+    display: flex;
+}
+.contact{
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.information{
+    width: 30%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.help{
+    width: 30%;
+    height: 100%;
+    /* background-color: tomato; */
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+}
+h4{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
