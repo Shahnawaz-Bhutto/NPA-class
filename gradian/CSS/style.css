@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    padding-top: 30px;
+
+}
+.gradian1{
+    width: 99%;
+    height: 15%;
+    /* border: 3px solid black    ; */
+    background-image: linear-gradient(red, green,gold,red);
+    animation-name: shanu;
+    animation-duration: 3s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes shanu{
+    0%{
+        width: 10%;
+        height: 15vh;
+    }
+}
+.gradian2{
+    width: 70%;
+    height: 15%;
+    /* border: 3px solid black    ; */
+    background-image: linear-gradient(red, green, yellow);
+    animation-name: shani;
+    animation-duration: 5s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-top: 50px;
+}
+@keyframes shani{
+    0%{
+        width: 10%;
+    }
+}
+
